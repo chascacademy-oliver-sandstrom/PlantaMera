@@ -1,0 +1,375 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+body {
+  background-image: url("./backgroundpng.png");
+  background-size: cover;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+* {
+  @font-face {
+    font-family: "San Francisco";
+    font-weight: 400;
+    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+  }
+}
+
+h1 {
+  font-size: 28px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.navbar {
+  height: 8rem;
+}
+
+.row button {
+  height: 8rem;
+  background: white !important;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.welcome-container {
+  position: relative;
+  height: 100vh;
+  overflow-x: scroll;
+  white-space: nowrap;
+}
+
+.slides {
+  display: inline-flex;
+  transition: transform 0.3s ease-in-out;
+  height: 100%;
+}
+
+.slide {
+  width: 100vw;
+  height: 100%;
+  flex-shrink: 0;
+  display: flex;
+}
+
+.slide-image {
+  object-fit: contain;
+  width: 100%;
+  max-height: 400px; /* Adjust the desired maximum height */
+  margin: auto;
+}
+
+.carousel-indicators {
+  display: none;
+}
+
+.text-btn {
+  margin-top: -250px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.welcome-text {
+  font-size: 2.5rem;
+}
+
+.text-btn button {
+  font-size: 1.8rem;
+  font-weight: 500;
+  background: #64A786;
+  border: 1px solid #64A786;
+}
+
+.container button {
+  background: #64A786;
+  border: 1px solid #64A786;
+  font-size: 1.8rem;
+}
+
+.light-green-background {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  font-size: 2rem;
+}
+
+.light-green-background input {
+  font-size: 2rem;
+}
+
+.indicators {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}
+
+.indicators span {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: gray;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.indicators span.active {
+  background-color: black;
+}
+
+.buttons {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.login-button {
+  margin: 0 auto;
+  display: block;
+}
+
+.image-container {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+.btn-primary {
+  width: 300px;
+}
+
+.start-text {
+  text-align: center;
+  margin-top: -140px;
+  background-color: #fff;
+}
+
+.carousel-arrow {
+  position: absolute;
+  top: 50%;
+  font-size: 2rem;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 5px;
+  cursor: pointer;
+  z-index: 1;
+  transform: translateY(-50%);
+  transition: opacity 0.3s;
+}
+
+.carousel-arrow.prev {
+  left: 0;
+}
+
+.carousel-arrow.next {
+  right: 0;
+}
+
+.slide-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-button {
+  margin-top: 20px;
+}
+
+.carousel-container {
+  height: 100vh;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  display: none;
+}
+
+.points {
+  display: flex;
+  flex-direction: column;
+  padding-top: 5rem;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+.container h1 {
+  color: white;
+  font-weight: 700;
+  font-size: 2.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.tree-container {
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  margin-bottom: 38rem;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.tree-stage-container {
+  display: flex;
+  align-items: flex-end;
+}
+
+.tree-stage-image-container {
+  margin-top: auto;
+  transform: scale(250%);
+}
+
+.camera-container.hidden {
+  display: none;
+}
+
+#map {
+  border-radius: 20px;
+  border: 2px solid #64A786;
+}
+
+.text {
+  color: white;
+  font-size: 2rem;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.file-upload {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.toastBody {
+  font-family: "Atlas Grotesk Web", Arial, Helvetica, sans-serif;
+  color: #10171D; /* #10171D */
+  font-size: 1.2rem !important;
+}
+
+.table {
+  font-size: 1.5rem;
+  color: rgb(0, 0, 0);
+  font-weight: 700;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table th,
+.table td {
+  padding: 12px;
+}
+
+.table th {
+  background-color: #f2f2f2;
+  text-align: left;
+  font-size: 1.8rem;
+}
+
+.table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.table tr:hover {
+  background-color: #e6e6e6;
+}
+
+.app-title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-top: 20px;
+  color: #ffffff; 
+}
+
+.container button.redeem-button {  
+  position: fixed;
+  top: 10rem;
+  left: 30%;
+  width: 300px; 
+  height: 70px;
+  margin: 0 auto; 
+}
+
+.leaderboard {
+  display: flex;
+  flex-direction: column;
+  padding-top: 8rem;
+}
+
+.leaderboard h1 {
+  padding-bottom: 5rem;
+  font-size: 4rem;
+}
+
+.leaderboard th {
+  font-size: 2.3rem;
+}
+
+.profile {
+  display: flex;
+  padding-top: 8rem;
+  flex-direction: column;
+}
+
+.profile h1 {
+  font-size: 4rem;
+  padding-bottom: 5rem;
+}
+
+.container button.plant-tree-button {
+  margin-top: 8.5rem; /* Adjust the desired margin-top value */
+}

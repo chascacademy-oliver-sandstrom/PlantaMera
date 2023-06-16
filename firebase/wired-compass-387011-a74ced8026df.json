@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "wired-compass-387011",
+  "private_key_id": "a74ced8026dfbc42f242a7022afbae6f32b7d817",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC9pnVKikwtpVji\ny5rtYpkiKFfWYEtuXjsFlXRYZ9WCBcWtKeUiPlz+uslbC24hplrZPKUkywGHzSt9\n5vEX9yz+RCbrjX0BGhNlFcG8sv2tjk6uRs09kJDy40TKOlCSYvbEvsNg+tTVb+2t\n71ma0GZbDyVN+N2YivobLEhgq0a72Lnm02nBjhshvM3wWAsPCARIpa4H06vk8iUN\nTg5HgDIuwfK0r7i469EZQwRKDYTCNvvsFzWgR7hK5MPT+517tJYWLuN2V0RO3JJ+\n4SduO9QQxJbWFaOwcSAZX1mRLsYhhhKOEOuec/7oExuMXClpp/4DF+BGI6Zxn7tI\nuajGv667AgMBAAECggEACz/GZpzRa/EKLARbtNz2VwUBliEGww3VKRL2YGVi+rVm\nRkvdNYIcI1fnqFODPX0P7SF1wjrwZPe8hAP2JQUaUXKwGaS+LMSOhfPGbBpJ2x49\nIy/mmKeXPBuoRukyl5xF0DcTK7t1Hbvn4ztL8KzlMAgz9ENgvDLyJuPM3z8JkQwY\ncV6CXL/cwo2F2mzxOo3nFlSCxvLmUV0CoRTnq5sRIEyWjx5ZhuKbN16tmHYxL3W9\nLYN3yMjsiyoISpu8b94CF0w4vXeKdT87uTj+I69Ao80/qka0grV0dziaYo88XWg8\nQHSLowWp+1/mw0xVKQ5AjB6dqq5+rza3r3WCVjJ9oQKBgQDeqmxCuvA8+conq7FZ\n6B6jXsDmszNNhEM3O/8wgkSfDoKXzbEJtljiSuV93bw48R754rW6U/BcOlEaoiPA\nHUeKJEBl+L3R8PU3Qy2fcNk1eNB4SRkzk9bRulFWdZdAjlix2z2uyk1YVKc8gQpD\nWSyRSNRi9LVBJHe5XESNnakziQKBgQDaCrrDECD+yvEshxy6Dbl1tV4vou1hIFJL\nJmEf2uqRoY+6t/VgpjFURKXQabKFcNdApeW4e5QUA3/lecFGBDglXem/A8sP+Lod\nsdd8cUk42BqGof3KgNYRpweVlJIEU0Iqm631KcO24iXK5sOfM2yGFEbL3QhzPOhV\nG9aVtsDLIwKBgGSsSxx0pu/6xDLhhuMudsPIsJDeDuEKXtWXU87b5yi/B76Y6mWI\nw3E1CcO5wENCiY3TufSPxQn99/OBwYY39sN3loJET5afSk99GSCQhjSN9jucWT+f\npS3X/rSHoCY49dMcXCwuHYBFbgOGGFzQ8bySYCyJlXXphhQRqpEY6op5AoGBANe0\n06zUUQAgP1Xg2N+LYlV7txEDazmyIxergVxlU7f9EFcVVJBn+dc3Dp9PYcg3qQuQ\n0+GdiBIAoE+iEz20QONetDc/hm1nkKB95wN6g4jT6fIVYiErMhxGlO87CvVydLv4\nRbGLvs43jlHb192wnwVKG/vk0E5JDEPehXyZTsPnAoGBAJi21FVwjPKptx4LBj+X\nmDTOO2VTP/XT7t4oe/J7mB7OQS6sAbYSDBNpgTF3wdh21eZfap1QJJ77dS6IzOZF\nVHoSAgbKrooLzQbiPpeuWjsM5Jemh+9MM+3PtoidX//lbF7cnlmkleAAiUr3vlbL\nqN8wz8FELWvFfnQxieJlnFRL\n-----END PRIVATE KEY-----\n",
+  "client_email": "greentech@wired-compass-387011.iam.gserviceaccount.com",
+  "client_id": "102673980589044202352",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/greentech%40wired-compass-387011.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
